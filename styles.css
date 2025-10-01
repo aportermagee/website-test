@@ -29,3 +29,6 @@ a:hover {
 a:active {
   background-color: rgb(120, 150, 200);
 }
+p {
+  font-size: 0.5rem;
+}
