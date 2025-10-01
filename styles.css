@@ -10,7 +10,7 @@ div {
   height: 25rem;
   padding: 2rem 1rem;
 }
-a {
+a, button {
   text-decoration: none;
   display: inline-block;
   padding: 1rem 2rem;
