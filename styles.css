@@ -20,7 +20,7 @@ a, button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   cursor: pointer;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   border: 0.2rem solid rgb(170, 200, 255);
 }
 a:hover {
@@ -31,4 +31,15 @@ a:active {
 }
 p {
   font-size: 1rem;
+  font-color: rgb(120, 150, 200);
+}
+input {
+  outline: none;
+  border: 0.2rem solid rgb(170, 200, 255);
+  transition: 0.3s;
+  padding: 0.6rem;
+  border-radius: 0.5rem
+}
+input:focus {
+  border-color: rgb(120, 150, 200);
 }
