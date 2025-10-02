@@ -27,8 +27,8 @@ a:hover {
   background-color: rgb(170, 200, 255);
 }
 a:active {
-  background-color: rgb(100, 170, 200);
-  border-color: regb(100, 170, 200);
+  background-color: rgb(10, 60, 175);
+  border-color: regb(10, 60, 175);
 }
 p {
   font-size: 1rem;
@@ -41,5 +41,8 @@ input {
   border-radius: 0.25rem
 }
 input:focus {
-  border-color: rgb(100, 170, 200);
+  border-color: rgb(10, 60, 175);
+}
+h1 {
+  color: rgb(10, 60, 175);
 }
