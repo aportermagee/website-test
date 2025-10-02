@@ -16,18 +16,18 @@ div {
 a, button {
   text-decoration: none;
   display: inline-block;
-  padding: 1rem;
+  padding: 0.6rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   cursor: pointer;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   border: 0.2rem solid rgb(170, 200, 255);
 }
 a:hover {
   background-color: rgb(170, 200, 255);
 }
 a:active {
-  background-color: rgb(120, 150, 200);
+  background-color: rgb(100, 170, 200);
 }
 p {
   font-size: 1rem;
@@ -37,8 +37,8 @@ input {
   border: 0.2rem solid rgb(170, 200, 255);
   transition: 0.3s;
   padding: 0.6rem;
-  border-radius: 0.5rem
+  border-radius: 0.25rem
 }
 input:focus {
-  border-color: rgb(120, 150, 200);
+  border-color: rgb(100, 170, 200);
 }
