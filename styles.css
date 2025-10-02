@@ -38,7 +38,8 @@ input {
   border: 0.05rem solid rgb(170, 200, 255);
   transition: 0.3s;
   padding: 0.6rem;
-  border-radius: 0.25rem
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
 }
 input:focus {
   border-color: rgb(10, 60, 175);
