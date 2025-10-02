@@ -21,7 +21,7 @@ a, button {
   color: rgb(0, 0, 0);
   cursor: pointer;
   border-radius: 0.25rem;
-  border: 0.2rem solid rgb(170, 200, 255);
+  border: 0.05rem solid rgb(170, 200, 255);
 }
 a:hover {
   background-color: rgb(170, 200, 255);
@@ -35,7 +35,7 @@ p {
 }
 input {
   outline: none;
-  border: 0.2rem solid rgb(170, 200, 255);
+  border: 0.05rem solid rgb(170, 200, 255);
   transition: 0.3s;
   padding: 0.6rem;
   border-radius: 0.25rem
