@@ -1,17 +1,17 @@
 const users = {
-  "amagee": "apm2010!"
+  'amagee': 'apm2010!',
 }
 
-const submitBtn = document.getElementById("submitBtn");
+const submitBtn = document.getElementById('submitBtn');
 
-function check(username, password) {
+function tryLogin(username, password) {
   if (users[username] === password) {
-    alert("Logged In");
+    localStorage.setItem('loggedIn', true);
   } else {
-    alert("Incorrect username or password");
+    alert('Incorrect username or password');
   }
 }
 
 submitBtn.onclick = function() {
-  check(document.getElementById("username").value, document.getElementById("password").value);
+  check(document.getElementById('username').value, document.getElementById('password').value);
 }
