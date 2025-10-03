@@ -1,5 +1,5 @@
 const users = {
-  "amagee": "apm2010!";
+  "amagee": "apm2010!"
 }
 
 const submitBtn = document.getElementById("submitBtn");
@@ -12,4 +12,6 @@ function check(username, password) {
   }
 }
 
-submitBtn.onclick(check(document.getElementById("username").value, document.getElementById("password").value);
+submitBtn.onclick = function() {
+  (check(document.getElementById("username").value, document.getElementById("password").value);
+}
