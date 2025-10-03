@@ -5,10 +5,10 @@ const users = {
 const submitBtn = document.getElementById("submitBtn");
 
 function check(username, password) {
-  if (users.username === password) {
+  if (users[username] === password) {
     alert("Logged In");
   } else {
-    alert("Incorrect password");
+    alert("Incorrect username or password");
   }
 }
 
