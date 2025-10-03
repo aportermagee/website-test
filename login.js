@@ -14,5 +14,5 @@ function tryLogin(username, password) {
 }
 
 submitBtn.onclick = function() {
-  check(document.getElementById('username').value, document.getElementById('password').value);
+  tryLogin(document.getElementById('username').value, document.getElementById('password').value);
 }
