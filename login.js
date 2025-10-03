@@ -2,6 +2,10 @@ let users = {
   "amagee": "apm2010!";
 }
 
-function speak() {
-  alert("Hello");
+function check(username, password) {
+  if (users.username === password) {
+    alert("Logged In");
+  } else {
+    alert("Incorrect password");
+  }
 }
