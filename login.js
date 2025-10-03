@@ -13,5 +13,5 @@ function check(username, password) {
 }
 
 submitBtn.onclick = function() {
-  (check(document.getElementById("username").value, document.getElementById("password").value);
+  check(document.getElementById("username").value, document.getElementById("password").value);
 }
