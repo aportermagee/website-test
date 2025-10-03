@@ -23,10 +23,10 @@ a, button {
   border-radius: 0.25rem;
   border: 0.05rem solid rgb(170, 200, 255);
 }
-a:hover {
+a:hover, button:hover {
   background-color: rgb(170, 200, 255);
 }
-a:active {
+a:active, button:active {
   background-color: rgb(0, 90, 175);
   border-color: regb(0, 90, 175);
 }
