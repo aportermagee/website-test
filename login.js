@@ -7,6 +7,7 @@ const submitBtn = document.getElementById('submitBtn');
 function tryLogin(username, password) {
   if (users[username] === password) {
     localStorage.setItem('loggedIn', true);
+    window.location.href = 'home.html';
   } else {
     alert('Incorrect username or password');
   }
