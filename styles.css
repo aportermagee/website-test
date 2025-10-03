@@ -34,6 +34,9 @@ a:active, button:active {
 p {
   font-size: 1rem;
 }
+.errorP {
+  color: rgb(200, 0, 0);
+}
 input {
   outline: none;
   border: 0.05rem solid rgb(170, 200, 255);
