@@ -1,3 +1,7 @@
+if (localStorage.getItem('loggedIn')) {
+  window.location.href = 'home.html';
+}
+
 const users = {
   'amagee': 'apm2010!',
 }
