@@ -6,6 +6,5 @@ const logoutBtn = document.getElementById('logoutBtn');
 
 logoutBtn.onclick = function() {
   localStorage.removeItem('loggedIn');
-  alert('hello');
   window.location.href = 'index.html';
 }
