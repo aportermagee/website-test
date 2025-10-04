@@ -1,4 +1,4 @@
-if (localStorage.getItem('loggedIn')) {
+if (localStorage.getItem('loggedIn') === true) {
   window.location.href = 'home.html';
 }
 
