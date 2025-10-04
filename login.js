@@ -9,7 +9,7 @@ function tryLogin(username, password) {
     localStorage.setItem('loggedIn', true);
     window.location.href = 'home.html';
   } else {
-    alert('Incorrect username or password');
+    document.getItemById("errorP");
   }
 }
 
