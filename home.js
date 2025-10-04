@@ -1,1 +1,3 @@
-if (localStorage.getItem)
+if (localStorage.getItem('loggedIn')) {
+  
+}
