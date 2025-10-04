@@ -50,6 +50,8 @@ input:focus {
 }
 .logoutBtn {
   border-color: rgb(255, 0, 0);
+  width: fit-content;
+  margin-right: auto;
 }
 .logoutBtn:hover {
   background-color: rgb(255, 0, 0);
