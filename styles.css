@@ -48,3 +48,14 @@ input {
 input:focus {
   border-color: rgb(0, 90, 175);
 }
+.logoutBtn {
+  border-color: rgb(255, 0, 0);
+}
+.logoutBtn:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.logoutBtn:active {
+  background-color: rgb(150, 0, 0);
+  border-color: rgb(150, 0, 0);
+  color: rgb(255, 255, 255);
