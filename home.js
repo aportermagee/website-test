@@ -1,3 +1,3 @@
-if (localStorage.getItem('loggedIn')) {
+if (!localStorage.getItem('loggedIn')) {
   window.location.href = 'index.html';
 }
