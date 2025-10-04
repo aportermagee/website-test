@@ -35,7 +35,7 @@ p {
   font-size: 1rem;
 }
 .errorP {
-  color: rgb(200, 0, 0);
+  color: rgb(255, 0, 0);
 }
 input {
   outline: none;
